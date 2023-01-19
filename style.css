@@ -1,0 +1,153 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header
+{
+    height: 5em;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 3em 9em 3em;
+    transition: 1s;
+    background-color: rgb(255, 255, 255);
+    
+}
+header:hover{
+    border-bottom: 1.5px solid black;
+}
+
+header ul
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 17px;
+}
+
+header ul li
+{
+    border: 2px solid #19ffd1;
+    border-radius: 30px;
+    padding: 9px  14px;
+    transition: 1s ease-in;
+}
+header ul li:hover
+{
+background-color: #19ffd1;
+
+
+}
+header ul li a
+{
+text-decoration: none;
+color: black;
+transition: 1s;
+
+}
+header li:hover a{
+    color: white;
+}
+.logo
+{
+    height: 5em;
+    width: 7em;
+    object-fit: cover;
+    padding: 5px;
+
+}
+.headloginbutt
+{
+    background-color: #19ffd1;
+    transition: 1s;
+}
+
+.bodytop
+{
+
+background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.5),black),url("Body top img.jpeg");
+background-size: cover;
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+z-index: 1;
+
+}
+.bodytop span
+{
+    height: 3px;
+    width: 26em;
+    background-color: orange;
+    border-radius: 30px;
+}
+.bodytop .heading1
+{
+color: white;
+margin: 20px 0px 4px;
+font-size: 18px;
+font-weight: 10;
+letter-spacing: 10px;
+}
+.bodytop .heading2
+{
+    color: white;
+    margin: 4px 0px 20px;
+    font-size: 9px;
+    word-spacing: 1px;
+    letter-spacing: 3px;
+
+}
+.bodytop .para
+{
+    color: white;
+    margin: 20px 0px;
+    word-spacing: 1px;
+    font-size: 25px;
+    
+    letter-spacing: 1.2px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.button 
+{
+    position: absolute;
+    bottom: 30%;
+
+}
+.button ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.button ul li
+{
+    border: 1px solid orange;
+    padding: 8px 12px;
+    border-radius: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.button ul li a
+{
+    color: white;
+    text-decoration: none;
+
+}
+.button ul li:hover
+{
+    background-color: orange;
+    box-shadow: 0px 0px 30px black;
+}
+.button .second
+{
+background-color: orange;
+}
